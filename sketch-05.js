@@ -54,8 +54,6 @@ const sketch = ({ context, width, height }) => {
 
     const typeData = typeContext.getImageData(0, 0, cols, rows).data;
 
-    // context.drawImage(typeCanvas, 0, 0);
-
     context.fillStyle = 'black';
     context.fillRect(0, 0, width, height);
 
